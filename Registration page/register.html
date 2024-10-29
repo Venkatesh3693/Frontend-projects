@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <center>
+        <table id="enter" >
+            <tr>
+                <td >name</td>
+                <td><input type="text" id="per"></td>
+            </tr>
+            <tr>
+                <td>age</td>
+                <td
+                ><input type="text" id="age"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="Female">
+			<label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><select id="select">
+                    <option value="javascript">Java script</option>
+                    <option value="python">python</option>
+                    <option value="java">Java</option>
+                    <option value="fullstack">fullstack</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" placeholder="abc@hmail.com" id="email"></td>
+            </tr>
+            <tr height="30px">
+                <td colspan="3"><button onclick="store()" type="reset">save</button></td>
+              </tr>
+        </table>
+        </center>
+
+        <center>
+            <table id="registered-users">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Course</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="user-data">
+                </tbody>
+            </table>
+        </center>
+
+    <script src="register.js"></script>
+</body>
+</html>
+ 
