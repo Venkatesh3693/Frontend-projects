@@ -1,0 +1,36 @@
+
+body{
+    margin-top: 15%;
+}
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff4c4c; 
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+
+  }
+  
+  .container {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    background-image: linear-gradient(to bottom, #ffcc00, #ff9900);
+    color: #fff;
+  }
+  
+  #countdown span {
+    color: #ff4c4c;
+  }
+  
+
